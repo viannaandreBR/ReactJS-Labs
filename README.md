@@ -1,9 +1,9 @@
-"# ReactJS-Labs" 
-1) O que é ReactJS?
-2) Criando projeto
-3) O que são componentes?
-4) Criando Header
-5) Buscando produtos da API
+"# ReactJS-Labs"  - OK
+1) O que é ReactJS? - OK
+2) Criando projeto - OK
+3) O que são componentes? - OK
+4) Criando Header - OK
+5) Buscando produtos da API -OK
 6) Armazenando no estado
 7) Listando produtos
 8) Página anterior/próxima
@@ -35,7 +35,10 @@ sudo npm install -g create-react-app
 
 Create-react-app
 create-react-app huntweb
-yarn start - ok
+
+execução 
+cd huntweb
+yarn start 
 
 ----------------------------------------------------
 3) O que são componentes ?
@@ -74,3 +77,7 @@ index.js -> Primeiro Arquivo Aberto
             import axios from 'axios';
 
             {baseURL: "https:}
+
+---------------------------------------------------------------------------
+ReactJS possui o ciclo de componente:
+    componentDidMount()
