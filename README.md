@@ -9,7 +9,7 @@
 8) Página anterior/próxima
 9) Configurando navegação
 10) Navegando pro detalhe
---------------------------------------------------
+---------------------------------------------------
  Cloning gitlinuxdev@gmail.com
 
 ---------------------------------------------------
