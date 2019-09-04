@@ -4,7 +4,7 @@
 3) O que são componentes? - OK
 4) Criando Header - OK
 5) Buscando produtos da API -OK
-6) Armazenando no estado
+6) Armazenando no estado - ok
 7) Listando produtos
 8) Página anterior/próxima
 9) Configurando navegação
@@ -81,3 +81,16 @@ index.js -> Primeiro Arquivo Aberto
 ---------------------------------------------------------------------------
 ReactJS possui o ciclo de componente:
     componentDidMount()
+-----------------------------------------------
+6) Armazenando no estado
+
+>Variáveis de Estado=> 
+
+state = {
+      products:[],
+}
+
+>Contagem de Produtos pelo método render()
+
+render(){
+  return <h1>Contagem de Produtos</h1>
