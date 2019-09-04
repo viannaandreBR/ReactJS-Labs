@@ -94,3 +94,14 @@ state = {
 
 render(){
   return <h1>Contagem de Produtos</h1>
+
+>Consulta a base MongoDB pelo ReactJS
+render(){
+  return(
+    <div className="product-list">
+      {this.state.products.map(product => (
+        <h2 key={product._id}>{product.title}</h2>
+      ))}
+    </div>
+  ); 
+ }
