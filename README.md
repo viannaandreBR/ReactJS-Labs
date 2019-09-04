@@ -5,7 +5,7 @@
 4) Criando Header - OK
 5) Buscando produtos da API -OK
 6) Armazenando no estado - ok
-7) Listando produtos
+7) Listando produtos - Ok
 8) Página anterior/próxima
 9) Configurando navegação
 10) Navegando pro detalhe
@@ -105,3 +105,14 @@ render(){
     </div>
   ); 
  }
+---------------------------------------------------
+7) Listando Produtos
+
+> editando index.js
+render()
+   substituir <h2> para <article>
+
+
+> criando styles.css
+    /src/pages/main/styles.css
+
