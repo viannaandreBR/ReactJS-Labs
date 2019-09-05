@@ -7,7 +7,7 @@
 6) Armazenando no estado - ok
 7) Listando produtos - Ok
 8) Página Anterior/Próxima - ok
-9) Configurando navegação
+9) Configurando Navegação - OK
 10) Navegando pro detalhe
 ---------------------------------------------------
  Cloning gitlinuxdev@gmail.com
@@ -123,3 +123,29 @@ remover styles.css
 
   cursor: pointer;
 --------------------------------------------------------------------
+9) Configurando Navegação
+=>Instalar Biblioteca React Router DOM
+yarn add react-router-dom
+
+=> Criar arquivos na raiz
+   ./routes.js
+
+=> Importar BrowserRouter, Switch, Route
+
+=> Criar componentes Routes
+
+=> <BrowserRouter>
+   <Switch>
+    <Route path="/" component={Main} />
+   </Switch>
+   </BrowserRouter>
+
+=> App.js
+    import Routes from './routes';
+
+=> Página Pages no Página
+   /pages/product
+
+   Criar index.js             
+
+=> 
