@@ -8,10 +8,22 @@
 7) Listando produtos - Ok
 8) Página Anterior/Próxima - ok
 9) Configurando Navegação - OK
-10) Navegando pro detalhe
+10) Navegando pro detalhe - OK
 ---------------------------------------------------
  Cloning gitlinuxdev@gmail.com
 ---------------------------------------------------
+OBJETIVOS:
+> Princípios básicos React
+> Componetização
+> Roteamento
+> Ciclos de Vida
+> Utilização API
+> Estado
+> Propriedades
+> Estilização
+
+
+
 1) O que é ReactJS ?
 ---------------------------------------------------
 
@@ -147,5 +159,7 @@ yarn add react-router-dom
    /pages/product
 
    Criar index.js             
+----------------------------------------------------
+10) Navegando pro detalhe - OK
 
-=> 
+>/src/pages/product/index.js
